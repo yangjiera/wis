@@ -96,9 +96,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
     
     padding:20px;
 }
-ul li{
-    list-style: none;
-}
+
 h3.col-xs-12{
     margin-top: -20px;
 
@@ -230,10 +228,11 @@ address {
   color: white;
 }
 .navbar {
-  font-weight: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   margin-bottom: 0;
+  font-size: 1.02rem;
+  font-weight: 600;
 }
 /*
 * ==========================================================================
