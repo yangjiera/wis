@@ -1,3 +1,4 @@
 ---
-title: Lambda
+title: Learning and search
+team: lambda
 ---

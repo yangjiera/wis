@@ -9,8 +9,13 @@ title: Research Themes
         <div class="row justify-content-center">
             <div class="services-header">
                 <h3 class="services-header-title">Our {{page.title}}</h3>
-<!--                <p class="services-header-body"><em> Things we provide in Office </em>  </p><hr>-->
             </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <p class="blog-post">
+                Some text about all the research themes
+            </p>
         </div>
 
         {% for team in site.teams %}
@@ -26,7 +31,7 @@ title: Research Themes
                 {% endif %}
             {% endif %}
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 blockquote-{{team.title | downcase}}">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 blockquote-{{team.team | downcase}}">
                 <div class="square services-group animated {{animationType}}">
                     <p class="services-icon"><span class="fa fa-delta fa-5x"></span></p>
                     <h4 class="services-title">{{ team.title }}</h4>

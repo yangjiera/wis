@@ -1,3 +1,4 @@
 ---
-title: Kappa
+title: Crowd computing
+team: kappa
 ---

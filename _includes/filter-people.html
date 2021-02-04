@@ -1,0 +1,46 @@
+
+
+{% assign filtered_people = site.people | where:'team', include.team %}
+
+{% for people in filtered_people %}
+{% assign loopindex = forloop.index0 | modulo: 3 %}
+{% assign animationType = 'fadeInRight' %}
+
+{% if loopindex == 0 %}
+{% assign animationType = 'fadeInLeft' %}
+<div class="row">
+    {% endif %}
+
+    {% if loopindex == 1 %}
+    {% assign animationType = 'zoomIn' %}
+    {% endif %}
+    <div class="col-md-4">
+        <div class="blockquote-box blockquote-people animated {{animationType}} clearfix">
+            <div class="square pull-left">
+                <img src="{{site.baseurl}}/assets/img/people/{{people.image}}" alt="Feature-img" height="80"
+                     width="100">
+            </div>
+            <h4>
+                {{people.name}}
+            </h4>
+            <p>
+                {{people.role}}
+            </p>
+            <a class="pr-2" href="{{people.twitter}}" target="_blank" title="Twitter">
+                <i class="fa fa-lg fa-twitter"></i>
+            </a>
+            <a class="pr-2" href="{{people.linkedin}}"
+               target="_blank" title="LinkedIn">
+                <i class="fa fa-lg fa-linkedin"></i>
+            </a>
+            <a class="" href="{{people.github}}" target="_blank" title="GitHub">
+                <i class="fa fa-lg fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    {% if loopindex == 2 or forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}

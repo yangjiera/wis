@@ -2,6 +2,6 @@
 name: Asterios Katsifodimos
 role: Assistant Professor
 supervisor: Geert-Jan Houben
-team: sigma
+team: lambda
 image: member1.png
 ---
