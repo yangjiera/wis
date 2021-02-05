@@ -6,7 +6,7 @@ team: delta
 linkedin: https://www.linkedin.com/in/asteriosk/
 twitter: https://twitter.com/kasterios
 github: https://github.com/asteriosk
-image: member1.png
+image: asterios.jpg
 ---
 
 Asterios is an Assistant Professor, Delft University of Technology (TU Delft), and member of the Web Information Systems group.
