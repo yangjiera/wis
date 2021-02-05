@@ -1,6 +1,6 @@
 ---
 name: Rihan Hai
-role: post-doc
+role: Postdoc
 team: delta
 filter: 4
 image: rihan.jpg
