@@ -7,7 +7,7 @@ team: delta
 linkedin: https://www.linkedin.com/in/asteriosk/
 twitter: https://twitter.com/kasterios
 github: https://github.com/asteriosk
-image: asterios.jpg
+image: Asterios Katsifodimos.jpg
 ---
 
 Asterios is an Assistant Professor, Delft University of Technology (TU Delft), and member of the Web Information Systems group. He works in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration.
