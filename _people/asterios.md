@@ -1,8 +1,11 @@
 ---
 name: Asterios Katsifodimos
 role: Assistant Professor
+<<<<<<< HEAD
 supervisor: Geert-Jan Houben
 filter: 3
+=======
+>>>>>>> f45ab82295be23faa025c0bb140ffe3e7d0018f2
 team: delta
 linkedin: https://www.linkedin.com/in/asteriosk/
 twitter: https://twitter.com/kasterios
