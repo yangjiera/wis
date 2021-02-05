@@ -44,7 +44,8 @@ title: People
                 </a>
             </div>
         </div>
-        {% if loopindex == 1 %}
+
+        {% if loopindex == 1 or forloop.last %}
             </div>
         {% endif %}
 
