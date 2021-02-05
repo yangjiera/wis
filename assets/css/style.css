@@ -735,7 +735,6 @@ footer h3 {
     margin-right: 22px;
     text-align: center !important;
     background-color: #E6E6E6;
-    padding: 20px 0
 }
 
 .blockquote-box.blockquote-primary {
@@ -890,4 +889,8 @@ footer h3 {
 
 .margin-left-3 {
     margin-left: 3vw;
+}
+
+.person-image {
+    width: 100%;
 }

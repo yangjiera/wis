@@ -38,6 +38,7 @@ googleplus_link: http://plus.google.com
 collections:
   people:
     output: true
+    sort_by: filter
   teams:
     output: true
 
