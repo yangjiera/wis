@@ -18,4 +18,6 @@ Asterios received the ACM SIGMOD Research Highlights Award in 2016 and the  Best
 
 More information and a full list of publications can be found in his personal website: [asterios.katsifodimos.com].
 
+## Publications
+
 <style>iframe {width: 100%;  border: none;}</style><script src="https://d1rkab7tlqy5f1.cloudfront.net/Admin/pure-converter/js/iframeResizer.min.js"></script><iframe src="https://purexml.ewi.tudelft.nl/direct/tu/person/0eaea4e6-3dd3-42ee-9c39-b22dbfae6262" scrolling="no"></iframe><script>iFrameResize()</script>
