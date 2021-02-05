@@ -5,6 +5,7 @@ supervisor: Geert-Jan Houben
 team: delta
 linkedin: https://www.linkedin.com/in/asteriosk/
 twitter: https://twitter.com/kasterios
+github: https://github.com/asteriosk
 image: member1.png
 ---
 
