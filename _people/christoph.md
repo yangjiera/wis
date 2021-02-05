@@ -1,21 +1,17 @@
 ---
-name: Asterios Katsifodimos
+name: Christoph Lofi
 role: Assistant Professor
 supervisor: Geert-Jan Houben
 filter: 3
 team: delta
-linkedin: https://www.linkedin.com/in/asteriosk/
-twitter: https://twitter.com/kasterios
-github: https://github.com/asteriosk
-image: asterios.jpg
+linkedin: https://www.linkedin.com/in/christoph-lofi-298009145/
+image: Christoph Lofi (WIS).jpg
 ---
 
-Asterios is an Assistant Professor, Delft University of Technology (TU Delft), and member of the Web Information Systems group. He works in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration.
+Assistant Professor at the Web Information Systems group of the Faculty of Engineering, Mathematics and Computer Science (EEMCS/EWI), Delft University of Technology.
 
-Before joining TU Delft, Asterios spent a year with the SAP Innovation Center in Berlin, working on scalable architectures for machine learning inference and training. Before SAP, he was a postdoc at the database systems group in TU Berlin, headed by Volker Markl. He received his PhD from INRIA Saclay & Universite Paris-Sud in 2013, supervised by Ioana Manolescu. Prior to that, he was a member of the High Performance Computing systems Lab (HPCL), at the University of Cyprus, working with Marios Dikaiakos.
+My research is on Semantics-based Data Engineering methods and techniques. The general problem in data engineering is that the source data available to a data-driven system is often not fit for that purpose because data is scattered between different sources, is of low quality, or important semantic information is only implicitly available. This is a central challenge in the arising data-driven economy and a major detrimental aspect in many AI- or Data Science-driven systems. Data processing pipelines are needed to overcome these issues, producing the required target data from the available source data.
 
-Asterios received the ACM SIGMOD Research Highlights Award in 2016 and the  Best Paper Award at EDBT 2019.
+In the context of this challenge, I focus on problem scenarios where there is a semantic mismatch between mostly unstructured source data and structured target data. My research enables the engineering of sophisticated data processing pipelines for these scenarios which can tackle non-trivial issues with respect to integrating data from different sources, transforming data to more suitable granularities or more explicit representations, and augmenting data with additional data points and properties. This is a challenging aspect of data engineering, and solutions rely on recent methods for facilitating semantic enrichment like natural language processing, information extraction, crowd computing, or AI-driven data analysis.    
 
-More information and a full list of publications can be found in his personal website: [asterios.katsifodimos.com].
-
-<style>iframe {width: 100%;  border: none;}</style><script src="https://d1rkab7tlqy5f1.cloudfront.net/Admin/pure-converter/js/iframeResizer.min.js"></script><iframe src="https://purexml.ewi.tudelft.nl/direct/tu/person/0eaea4e6-3dd3-42ee-9c39-b22dbfae6262" scrolling="no"></iframe><script>iFrameResize()</script>
+I chose several application domains for validating my research, focusing on domains where data produced by humans needs to be analyzed and processed. These domains typically exhibit a strong semantic and structural mismatch between available and desired data, and thus are effective testing grounds for my research. Examples are digital libraries and enterprise digital text repositories, online education information systems, and information systems for supporting digital humanities research.
