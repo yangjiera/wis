@@ -1,21 +1,18 @@
-
-
 {% assign filtered_people = site.people | where:'team', include.team %}
+{% assign grouped_people = filtered_people | group_by: "filter" | sort: "name" %}
+{% assign counter = 0 %}
 
-{% for people in filtered_people %}
-{% assign loopindex = forloop.index0 | modulo: 3 %}
-{% assign animationType = 'fadeInRight' %}
+{% for group in grouped_people %}
+{% assign sorted_people = group.items | sort: "name" %}
 
-{% if loopindex == 0 %}
-{% assign animationType = 'fadeInLeft' %}
+{% for people in sorted_people %}
+
+{% if counter == 0 %}
 <div class="row">
     {% endif %}
 
-    {% if loopindex == 1 %}
-    {% assign animationType = 'zoomIn' %}
-    {% endif %}
     <div class="col-md-4">
-        <div class="blockquote-box blockquote-people animated {{animationType}} clearfix">
+        <div class="blockquote-box blockquote-people animated clearfix">
             <div class="square pull-left">
                 <img src="{{site.baseurl}}/assets/img/people/{{people.image}}" class="person-image" alt="Feature-img">
             </div>
@@ -38,8 +35,15 @@
         </div>
     </div>
 
-    {% if loopindex == 2 or forloop.last %}
+    {% if counter == 2 %}
 </div>
+{% assign counter = -1 %}
 {% endif %}
 
+{% assign counter = counter | plus:1 %}
+{% endfor %}
+
+{% if counter == 1 and forloop.last %}
+</div>
+{% endif %}
 {% endfor %}

@@ -6,24 +6,23 @@ published: true
 <!-- Main Container -->
 
 <div class="container-fluid-kamn">
-
-
     <div class="container content-space">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 vertical-align-text-grid">
                 <h4>Find us at:</h4>
-
-                <p class="block-author">{{ site.company_name }}</p>
-                <p>{{ site.address_line }}</p>
+                <p> <a href="https://iamap.tudelft.nl/poi/elektrotechniek-wiskunde-informatica/" target="_blank">{{ site.building }}</a> <br/>
+                    {{ site.room }} <br/>
+                    {{ site.street }} <br/>
+                    {{ site.zipcode }} <br/>
+                    {{ site.country }} <br/>
                 <p>Phone: {{ site.telephone_number }}</p>
-                <p>Fax: {{ site.fax_number }}</p>
 
-                <em class="block-author">Email: {{ site.company_email }}</em> <br>
+                <p>Email: <a href="mailto: {{site.company_email}}" target="_blank">{{ site.company_email }}</a></p> <br>
                 <br>
             </div>
             <div class="col-lg-8">
                 <div class="row">
-                    <iframe width="100%" height="450px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    <iframe width="100%" height="550px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                             src="{{ site.google_map }}"></iframe>
                     <br/>
                 </div>

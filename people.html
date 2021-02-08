@@ -8,16 +8,19 @@ title: People
 <div class="container">
     <div class="row justify-content-center">
         <div class="services-header">
-            <h3 class="services-header-title">{{page.title}}</h3>
-            <!--                <p class="services-header-body"><em> Things we provide in Office </em>  </p><hr>-->
+            <h2 class="services-header-title">{{page.title}}</h2>
         </div>
     </div>
 
-    {% for people in site.people %}
-        {% assign loopindex = forloop.index0 | modulo: 2 %}
-        {% assign animationType = 'fadeInRight' %}
+    {% assign grouped_people = site.people | group_by: "filter" | sort: "name" %}
+    {% assign counter = 0 %}
 
-        {% if loopindex == 0 %}
+    {% for group in grouped_people %}
+        {% assign sorted_people = group.items | sort: "name" %}
+
+        {% for people in sorted_people %}
+
+        {% if counter == 0 %}
             {% assign animationType = 'fadeInLeft' %}
             <div class="row">
         {% endif %}
@@ -45,10 +48,18 @@ title: People
             </div>
         </div>
 
-        {% if loopindex == 1 or forloop.last %}
+        {% if counter == 1 %}
             </div>
+            {% assign counter = -1 %}
         {% endif %}
 
+        {% assign counter = counter | plus:1 %}
+        {% assign animationType = 'fadeInRight' %}
         {% endfor %}
+
+        {% if counter == 1 and forloop.last %}
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>
 </section>
