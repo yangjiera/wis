@@ -1,4 +1,4 @@
 ---
-title: Crowd Computing
+title: Crowd Computing & Human-Centered AI
 team: kappa
 ---
