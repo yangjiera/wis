@@ -21,11 +21,11 @@ with a special focus on Crowd Computing. Ujwal’s prior work in Crowd Computing
 running large-scale human-centered experiments to understand the interaction between humans and machines, and understanding the societal impact of algorithmic 
 decision-making.
 
-Ujwal received the Douglas Engelbart Best Paper award at the ACM HT2017 conference, a Best Paper Honorable Mention award at the ACM CSCW 2020 conference, 
+Ujwal received the Douglas Engelbart Best Paper award at the ACM HT 2017 conference, a Best Paper Honorable Mention award at the ACM CSCW 2020 conference, 
 and co-authored work that won a Best Student Paper award at AAAI HCOMP 2020. 
 He serves on the editorial board of the Human Computation Journal and has served as the Program Chair of the ACM HT2020 conference.
 
-More information and a full list of publications can be found in his personal website: [ujwalgadiraju.com].
+More information and a full list of publications can be found on his personal website: [ujwalgadiraju.com].
 
 ## Publications
 
