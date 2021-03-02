@@ -3,7 +3,7 @@ name: Oana Inel
 role: Postdoctoral Researcher
 supervisor: Geert-Jan Houben
 filter: 4
-team: epsilon & kappa 
+team: epsilon,kappa 
 linkedin: https://www.linkedin.com/in/oana-inel-7110995a/
 twitter: https://twitter.com/oana_inel
 github: https://github.com/oana-inel
