@@ -1,9 +1,9 @@
 projects:
-  - title: Dandelion– A Conversational Crowd Computing Platform
+  - title: Dandelion – A Conversational Crowd Computing Platform
     description:
-  - title: Campus Trainbot– Minting Stress Management Coaches During a Pandemic
-    description: Based on our recent work at AAAI HCOMP 2020, we are currently running controlled experiments to train student mentors at TU Delft on essential skills required to better support students facing stress management or anxiety related challenges using a conversational agent called Trainbot. 
-  - title: UNCAGE– Conversational Agents for Education
+  - title: Campus Trainbot – Minting Stress Management Coaches During a Pandemic
+    description: 
+  - title: UNCAGE – Conversational Agents for Education
     description:
   - title: SpeakUp! Conversational Agents for Health and Wellbeing
     description:
