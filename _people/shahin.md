@@ -7,5 +7,5 @@ team: kappa
 linkedin: 
 twitter: https://twitter.com/
 github: https://github.com/
-image: Shahin.png
+image: Shahin.jpg
 ---
