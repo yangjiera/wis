@@ -5,11 +5,11 @@ projects:
     The aim is to support decision-making processes (e.g. to decide whether to attend a given event on the campus, or to find out what/where the next lecture is). 
     This involves the satisfaction of an information need (e.g. information about the crowdedness of the event area, or the timetable of a given student) and 
     solicit data about a given event (i.e. crowdsensing), or answer information needs from other users. In addition to serving such use-cases, 
-    the project also aims to gather an understanding of student ‘wellbeing’ periodically by leveraging the engaging means of the conversational interface. </p> 
+    the project also aims to gather an understanding of student ‘wellbeing’ periodically by leveraging the engaging means of the conversational interface. 
   - title: Campus Trainbot – Minting Stress Management Coaches During a Pandemic
     description: Based on our recent work at AAAI HCOMP 2020, we are currently running controlled experiments to train student mentors at 
     TU Delft on essential skills required to better support students facing stress management or anxiety related challenges using a conversational agent called 
-    ‘Trainbot’. </p>
+    ‘Trainbot’. 
   - title: UNCAGE – Conversational Agents for Education
     description:
   - title: SpeakUp! Conversational Agents for Health and Wellbeing
