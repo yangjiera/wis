@@ -33,6 +33,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 .section-global-wrapper {
     position: relative;
+    min-height: inherit;
 }
 
 .section-global-wrapper:before,
@@ -164,6 +165,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     background: #F8FAFF;
+    min-height: 60vh;
 }
 
 a {
@@ -557,7 +559,7 @@ footer .widget i {
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: 15px;
     left: 0;
     right: 0;
     background: black;
@@ -590,8 +592,9 @@ footer h3 {
 
 .copyright {
     color: #fff;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 10vw 10px 10vw;
     background-color: rgb(23, 23, 23);
+    /*justify-content: space-evenly;*/
 }
 
 /*

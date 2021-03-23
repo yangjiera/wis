@@ -1,22 +1,32 @@
 ---
 layout: default_style
+title: Publications
 ---
 
-<!--<div class="row container-kamn">-->
-<!--  <img src="{{site.baseurl}}/assets/img/slider/slide1.jpg" class="blog-post" alt="Feature-img" align="right" width="100%">-->
-<!--</div>-->
+<section class="section-global-wrapper">
+    <div class="container content-space">
+        <div class="row justify-content-center blog-post">
+            <h2> {{page.title}} </h2>
+        </div>
 
-<section id="teaching" class="section-global-wrapper">
-  <div class="container content-space">
-    <div class="row justify-content-center blog-post">
-      <h2> Publications </h2>
+        <div class="row">
+            <div id="publicationlist"></div>
+            <!--      <style>iframe {width: 100%;  border: none;}</style>-->
+            <!--      <script src="https://d1rkab7tlqy5f1.cloudfront.net/Admin/pure-converter/js/iframeResizer.min.js"></script>-->
+            <!--      <iframe src="https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06" scrolling="no"></iframe>-->
+            <!--      <script>iFrameResize()</script>-->
+            <script language="javascript">
+                var purexml_SERG = "https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06";
+                var page_nr = location.search;
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("publicationlist").innerHTML = this.responseText;
+                    }
+                };
+                xhttp.open("GET", purexml_SERG + page_nr, true);
+                xhttp.send();
+            </script>
+        </div>
     </div>
-
-    <div class="row">
-      <style>iframe {width: 100%;  border: none;}</style>
-      <script src="https://d1rkab7tlqy5f1.cloudfront.net/Admin/pure-converter/js/iframeResizer.min.js"></script>
-      <iframe src="https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06" scrolling="no"></iframe>
-      <script>iFrameResize()</script>
-    </div>
-  </div>
 </section>
