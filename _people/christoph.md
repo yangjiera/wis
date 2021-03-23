@@ -3,7 +3,7 @@ name: Christoph Lofi
 role: Assistant Professor
 supervisor: Geert-Jan Houben
 filter: 3
-team: delta
+team: ['delta', 'kappa']
 linkedin: https://www.linkedin.com/in/christoph-lofi-298009145/
 image: Christoph Lofi (WIS).jpg
 ---
