@@ -22,10 +22,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
 company_name: Web Information Systems
-building: Building 28,
-room: Room - 4.E.080 East 4rd floor,
-street: Van Mourik Broekmanweg 6,
-zipcode: 2628 XE Delft,
+building: Building 28
+building_url: https://iamap.tudelft.nl/poi/elektrotechniek-wiskunde-informatica/
+room: Room - 4.E.080 East 4rd floor
+street: Van Mourik Broekmanweg 6
+zipcode: 2628 XE Delft
 country: The Netherlands
 telephone_number: +31 15 27 87486
 company_email: secr-st-ewi@tudelft.nl

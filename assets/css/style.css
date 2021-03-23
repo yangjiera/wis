@@ -260,8 +260,9 @@ address {
 }
 
 .navbar {
-    font-size: 1.02rem;
-    font-weight: 600;
+    /*font-size: 1.02rem;*/
+    font-weight: 500;
+    font-size: larger;
 }
 
 /*
@@ -909,4 +910,12 @@ footer h3 {
 
 #teaching {
     min-height: 55vh;
+}
+
+.anchor {
+    border-bottom: solid grey 1px;
+}
+
+#navbar-section {
+    box-shadow: 1px 5px 15px 0px #808080a6;
 }

@@ -7,6 +7,7 @@ team: ['delta', 'kappa']
 linkedin: https://www.linkedin.com/in/christoph-lofi-298009145/
 image: Christoph Lofi (WIS).jpg
 ---
+## About 
 
 Assistant Professor at the Web Information Systems group of the Faculty of Engineering, Mathematics and Computer Science (EEMCS/EWI), Delft University of Technology.
 

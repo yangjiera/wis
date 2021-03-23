@@ -3,7 +3,7 @@ name: Agathe Balayn
 role: PhD candidate
 team: delta
 email: a.m.a.balayn@tudelft.nl
-office: Van Mourik Broekmanweg 6, 2628 XE Delft, The Netherlands
+office: 
 linkedin: https://www.linkedin.com/in/agathe-balayn-4bb365111/
 twitter: https://twitter.com/AggieBalayn
 github: https://github.com/agathe-balayn

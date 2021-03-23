@@ -15,22 +15,25 @@ title: Publications
             <!--      <script src="https://d1rkab7tlqy5f1.cloudfront.net/Admin/pure-converter/js/iframeResizer.min.js"></script>-->
             <!--      <iframe src="https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06" scrolling="no"></iframe>-->
             <!--      <script>iFrameResize()</script>-->
-            <script language="javascript">
-                var purexml_SERG = "https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06";
-                var page_nr = location.search;
-                var xhttp = new XMLHttpRequest();
-
-
-                xhttp.onreadystatechange = function () {
-                    if (this.readyState == 4 && this.status == 200) {
-                        document.getElementById("publicationlist").innerHTML = this.responseText;
-                    }
-                };
-                xhttp.open("GET", purexml_SERG + page_nr, true);
-                xhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-                xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
-                xhttp.send();
-            </script>
         </div>
     </div>
 </section>
+
+<script language="javascript">
+    var purexml= "https://purexml.ewi.tudelft.nl/direct/tu/group/d4352fd2-26c8-4288-90d5-340b3e36cb06";
+    var page_nr = location.search;
+    var xhttp = new XMLHttpRequest();
+
+
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("publicationlist").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", purexml + page_nr, true);
+    xhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+    xhttp.setRequestHeader('Access-Control-Allow-Methods', 'GET');
+    xhttp.setRequestHeader('Access-Control-Allow-Headers', 'Content-Type');
+    xhttp.send();
+</script>

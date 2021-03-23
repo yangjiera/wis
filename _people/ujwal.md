@@ -8,7 +8,9 @@ linkedin: https://www.linkedin.com/in/ujwalgadiraju/
 twitter: https://twitter.com/ujlaw
 github: https://github.com/ujwalgadiraju
 image: Ujwal Gadiraju.jpg
+email: U.K.Gadiraju@tudelft.nl
 ---
+## About
 
 Ujwal Gadiraju is an Assistant Professor at the Web Information Systems group of the Faculty of Engineering, Mathematics and Computer Science (EEMCS/EWI), 
 Delft University of Technology. He is a Director of the Delft AI “Design@Scale” Lab. In addition, Ujwal co-leads the research line on Crowd Computing and Human-Centered AI at the WIS group. 
@@ -28,4 +30,3 @@ He serves on the editorial board of the Human Computation Journal and has served
 More information and a full list of publications can be found on his personal website: [ujwalgadiraju.com].
 
 ## Publications
-
