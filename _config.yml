@@ -48,11 +48,6 @@ defaults:
       layout: "person"
   - scope:
       path: ""
-      type: "teams"
-    values:
-      layout: "team"
-  - scope:
-      path: ""
     values:
       layout: "default_style"
 

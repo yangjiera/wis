@@ -1,0 +1,94 @@
+---
+layout: default_style
+title: Data Management & Engineering
+---
+
+<section id="data-theme" class="section-global-wrapper">
+    <div class="container content-space">
+        <div class="row justify-content-center blog-post">
+            <h2> {{page.title}} </h2>
+        </div>
+
+        <div class="row">
+            <div class="row blog-post">
+                <div class="col-md-3">
+                    <img src="{{site.baseurl}}/assets/img/theme/server.png" width="100%"/>
+                </div>
+
+                <div class="col-md-9 vertical-align-text">
+                    Data Management is one of the central challenges in developing
+                    modern software systems. The need for more sophisticated Data
+                    Management is even more emphasized in the current times of Artificial
+                    Intelligence and Big Data-based systems which have even more demanding
+                    data requirements than traditional Data Management had to consider.
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin-top-2">
+            <div class="col-md-6">
+                <div class="row justify-content-center blog-post">
+                    <h3> Data Engineering</h3>
+                </div>
+
+                <div class="row justify-content-center pr-3 pl-3">
+                    <p class="text-center"> In Data Engineering, we focus on preparing data for its deployment or usage
+                        in a complex AI/data-driven system.
+                        This covers for example discovering data, cleaning data, transforming data, or integrating data
+                        from heterogenous
+                        sources. Also, there is a focus on (domain-specific) meta-data creation and management.
+                        Furthermore, aspects of data
+                        biases and potentially arising societal issues like misrepresentation and unfairness become
+                        focus area. Data Engineering
+                        topics are often seen in the context of their application domains, like Digital Humanities,
+                        medicine, but also business
+                        application like banking.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row justify-content-center blog-post">
+                    <h3> Scalable Data Management </h3>
+                </div>
+                <div class="row justify-content-center pr-3 pl-3">
+                    <p class="text-center"> In Scalable Data Management, the focus is on how to cope with the
+                        ever-increasing demand for storage and processing
+                        power by scaling data operations. This covers for example methods for stream-processing but also
+                        flexible distribution
+                        schemes or the deployment of scalable AI-models.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="col-md-12 blog-post margin-top-2">People</h3>
+            <div class="col-md-12 margin-left-3">
+                {% include filter-people.html team='delta' %}
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="col-md-12 blog-post margin-top-2">Projects</h3>
+            <ul class="col-md-12">
+                {% for project in site.data.delta.projects %}
+                <li class="margin-left-3">
+                    <h5><a href="{{project.link}}" target="_blank"> {{project.title}}</a></h5>
+                    <p>{{project.description}}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="row">
+            <h2 class="col-md-12 blog-post margin-top-2">Publications</h2>
+            <ul class="col-md-12">
+                <li class="margin-left-3">
+                    List of publications
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>

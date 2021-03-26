@@ -527,7 +527,8 @@ p.blog-text {
 .services-group {
     padding: 10px;
     background: #061F20;
-    color: white;
+    /*color: white;*/
+    min-height: 23vh;
 }
 
 .service-icon {
@@ -743,7 +744,7 @@ footer h3 {
 
 .blockquote-box.blockquote-primary .square {
     background-color: #428BCA;
-    color: #FFF
+    color: #FFF;
 }
 
 .blockquote-delta {
@@ -787,8 +788,8 @@ footer h3 {
     /*#c5ecac*/
 }
 .blockquote-people .square {
-    background-color: #f9dc8b;
-    color: #FFF
+    background-color: #fbfff1;
+    box-shadow: 1px 5px 15px 0px #808080a6;
 }
 
 /*
@@ -918,4 +919,14 @@ footer h3 {
 
 #navbar-section {
     box-shadow: 1px 5px 15px 0px #808080a6;
+}
+
+#research-themes {
+    text-align: left!important;
+}
+
+.services-more {
+    bottom: 0;
+    position: absolute;
+    margin-left: 30%;
 }
