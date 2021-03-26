@@ -9,46 +9,34 @@ title: Learning & Search
             <h2> {{page.title}} </h2>
         </div>
 
-        <div class="row">
-            <div class="row blog-post">
-                <div class="col-md-3">
-                    <img src="{{site.baseurl}}/assets/img/theme/" alt="Add a picture that represents the team"
-                         width="100%"/>
-                </div>
 
-                <div class="col-md-9 vertical-align-text">
-                    <p>Description</p>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row pr-3 pl-3 blog-post">
+                    <p class="text-center"> DESCRIPTION
+                    </p>
                 </div>
             </div>
-        </div>
 
+            <div class="col-md-12">
+                    <h4> Topic 1</h4>
 
-        <!--If more than 2 topics are present in your team, please add a new row.-->
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row justify-content-center blog-post">
-                    <h3> Topic 1</h3>
-                </div>
-
-                <div class="row justify-content-center">
+                <div class="row pr-3 pl-3 blog-post">
                     <p> Some text </p>
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="row justify-content-center blog-post">
-                    <h3> Topic 2</h3>
-                </div>
-                <div class="row justify-content-center">
+            <div class="col-md-12">
+                    <h4> Topic 2</h4>
+                <div class="row pr-3 pl-3 blog-post">
                     <p> Some text </p>
                 </div>
             </div>
         </div>
 
-        <!--The list of people is AUTOMATICALLY computed-->
+        <!--The list of people is AUTOMATICALLY computed - DO NOT MODIFY-->
         <div class="row">
-            <h3 class="col-md-12 blog-post">People</h3>
+            <h4 class="col-md-12 blog-post">People</h4>
             <div class="col-md-12 margin-left-3">
                 {% include filter-people.html team='lambda' %}
             </div>
@@ -57,7 +45,7 @@ title: Learning & Search
         <!--The list of projects is automatically retrieved from _data/lambda.yml -->
         <!--Please fill in the yml file with the data about your projects. -->
         <div class="row">
-            <h3 class="col-md-12 blog-post">Projects</h3>
+            <h4 class="col-md-12 blog-post">Projects</h4>
             <ul class="col-md-12">
                 {% for project in site.data.lambda.projects %}
                 <li class="margin-left-3">
@@ -71,7 +59,7 @@ title: Learning & Search
 
         <!--Create link to PURE to retrieve the publications -->
         <div class="row">
-            <h2 class="col-md-12 blog-post">Publications</h2>
+            <h4 class="col-md-12 blog-post">Publications</h4>
             <ul class="col-md-12">
                 <li class="margin-left-3">
                     List of publications

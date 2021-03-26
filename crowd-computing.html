@@ -9,32 +9,22 @@ title: Crowd Computing & Human-Centered AI
             <h2>{{page.title}}</h2>
         </div>
 
-        <div class="row">
-            <div class="row blog-post">
-                <div class="col-md-3">
-                    <img src="{{site.baseurl}}/assets/img/theme/kappa_HAII.jpg"
-                         alt="Add a picture that represents the team" width="100%"/>
-                </div>
-
-                <div class="col-md-9 vertical-align-text">
-                    <p>We focus on core areas which are instrumental in developing the next generation of AI systems –
+        <div class="row margin-top-2">
+            <div class="col-md-12">
+                <div class="row pr-3 pl-3 blog-post">
+                    <p class="text-center">We focus on core areas which are instrumental in developing the next
+                        generation of AI systems –
                         (1) Human-in-the-loop AI, (2) Human-AI interaction, (3) User Modeling and Explainability.
                         Our work considers the computational role of humans for AI, i.e., AI by humans, and the
-                        interactional role of humans with AI systems, i.e., AI for humans.</p>
+                        interactional role of humans with AI systems, i.e., AI for humans.
+                    </p>
                 </div>
             </div>
-        </div>
 
+            <div class="col-md-12">
+                <h4>Human-in-the-loop AI</h4>
 
-        <!--If more than 2 topics are present in your team, please add a new row.-->
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row justify-content-center blog-post">
-                    <h3>Human-in-the-loop AI</h3>
-                </div>
-
-                <div class="row justify-content-center">
+                <div class="row pr-3 pl-3 blog-post">
                     <p> Machine learning models have been criticized for the lack of robustness, fairness, and
                         transparency.
                         For models to learn comprehensive,
@@ -52,11 +42,9 @@ title: Crowd Computing & Human-Centered AI
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="row justify-content-center blog-post">
-                    <h3>Human-AI Interaction</h3>
-                </div>
-                <div class="row justify-content-center">
+            <div class="col-md-12">
+                <h4>Human-AI Interaction</h4>
+                <div class="row pr-3 pl-3 blog-post">
                     <p>In the light of recent advances in AI and the growing role of AI technologies in human-centered
                         applications,
                         a deeper exploration of interaction between humans and machines is the need of the hour.
@@ -73,10 +61,8 @@ title: Crowd Computing & Human-Centered AI
 
 
             <div class="col-md-12">
-                <div class="row justify-content-center blog-post">
-                    <h3>User Modeling & Explainability</h3>
-                </div>
-                <div class="row justify-content-center">
+                <h4>User Modeling & Explainability</h4>
+                <div class="row pr-3 pl-3 blog-post">
                     <p>As algorithmic decision-making becomes prevalent across many sectors it is important to help
                         users understand why certain decisions
                         are being proposed. Explanations are needed when there is a large knowledge gap between human
@@ -104,7 +90,7 @@ title: Crowd Computing & Human-Centered AI
 
         <!--The list of people is AUTOMATICALLY computed-->
         <div class="row">
-            <h3 class="col-md-12 blog-post">People</h3>
+            <h4 class="col-md-12 blog-post">People</h4>
             <div class="col-md-12 margin-left-3">
                 {% include filter-people.html team='kappa' %}
             </div>
@@ -113,7 +99,7 @@ title: Crowd Computing & Human-Centered AI
         <!--The list of projects is automatically retrieved from _data/kappa.yml -->
         <!--Please fill in the yml file with the data about your projects. -->
         <div class="row">
-            <h3 class="col-md-12 blog-post">Projects</h3>
+            <h4 class="col-md-12 blog-post">Projects</h4>
             <ul class="col-md-12">
                 {% for project in site.data.kappa.projects %}
                 <li class="margin-left-3">
@@ -127,7 +113,7 @@ title: Crowd Computing & Human-Centered AI
 
         <!--Create link to PURE to retrieve the publications -->
         <div class="row">
-            <h2 class="col-md-12 blog-post">Publications</h2>
+            <h4 class="col-md-12 blog-post">Publications</h4>
             <ul class="col-md-12">
                 <li class="margin-left-3">
                     List of publications
