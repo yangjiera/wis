@@ -1,6 +1,6 @@
 ---
 name: Alessandro Bozzon
-role: Full Professor
+role: (Affiliated) Full Professor
 filter: 1
 team: kappa
 linkedin: https://www.linkedin.com/in/alessandrobozzon

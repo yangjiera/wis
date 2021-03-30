@@ -1,26 +1,26 @@
 ---
-# Your full name 
-name: 
+# Your full name
+name: Shabnam Najafian
 # The members are displayed in a hierarchical way, so please choose the role and filter from this list:
 # Full Professor - 1
 # Associate Professor - 2
 # Assistant Professor - 3
 # Postdoctoral Researcher - 4
 # PhD Candidate - 5
-# Research Engineer - 6 
+# Research Engineer - 6
 # Guest Researcher - 7
 # Secretary - 8
-role:
-filter:
+role: PhD Candidate
+filter: 5
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
-team: []
-linkedin: 
-twitter: 
-github: 
-image: 
-email: 
+team: ['epsilon']
+linkedin:
+twitter:
+github:
+image: shabnam_najafian__wis_.jpg
+email: S.Najafian@tudelft.nl
 # Room number only (Room: 840 West 4rd floor)
-office: 
+office:
 ---
 
 ## About

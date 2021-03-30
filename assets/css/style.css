@@ -165,7 +165,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     background: #F8FAFF;
-    min-height: 60vh;
+    min-height: 62vh;
 }
 
 a {
@@ -294,16 +294,15 @@ address {
     background: #528C7C;
     box-shadow: 3px grey;
     color: white;
-    padding: 30px;
     letter-spacing: .9px;
 }
 
-@media (min-width: 800px) {
+/*@media (min-width: 800px) {*/
 
-    .side-left {
-        height: 1248px;
-    }
-}
+/*    .side-left {*/
+/*        height: 1248px;*/
+/*    }*/
+/*}*/
 
 .banner-text {
     font-family: 'Raleway', sans-serif;
@@ -929,4 +928,16 @@ footer h3 {
     bottom: 0;
     position: absolute;
     margin-left: 30%;
+}
+
+#contact-map {
+    height: 50vh;
+}
+
+#news {
+    padding-top: 1.5vh;
+}
+
+#news-col {
+    margin-top: -1vh;
 }

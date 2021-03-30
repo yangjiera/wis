@@ -1,5 +1,12 @@
-{% assign filtered_people = site.people | where:'team', include.team %}
-{% assign grouped_people = filtered_people | group_by: "filter" | sort: "name" %}
+{% assign filtered_people_1 = site.people | where:'team', include.team1 %}
+{% assign filtered_people = filtered_people_1 %}
+
+{% if include.team2 %}
+{% assign filtered_people_2 = site.people | where:'team', include.team2 %}
+{% assign filtered_people = filtered_people_1 | concat: filtered_people_2 %}
+{% endif %}
+
+{% assign grouped_people = filtered_people | uniq | group_by: "filter" | sort: "name" %}
 {% assign counter = 0 %}
 
 {% for group in grouped_people %}
@@ -12,6 +19,7 @@
     {% endif %}
 
     <div class="col-md-4">
+        <a href="{{site.baseurl}}{{people.url}}">
         <div class="blockquote-box blockquote-people animated clearfix">
             <div class="square pull-left">
                 <img src="{{site.baseurl}}/assets/img/people/{{people.image}}" class="person-image" alt="Feature-img">
