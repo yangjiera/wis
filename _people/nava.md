@@ -10,7 +10,7 @@ name: Nava Tintarev
 # Research Engineer - 5
 # Guest Researcher - 6
 # Secretary - 7
-role: (Affilated) Full Professor 
+role: (Affiliated) Full Professor 
 filter: 1
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['epsilon']
