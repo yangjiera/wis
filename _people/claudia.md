@@ -12,6 +12,7 @@ name: Claudia Hauff
 # Secretary - 8
 role: Associate Professor
 filter: 2
+theme-filter: 2
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['lambda']
 linkedin:

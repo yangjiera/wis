@@ -12,6 +12,7 @@ name: Marcus Specht
 # Secretary - 8
 role: (Affiliated) Full Professor
 filter: 1
+theme-filter: 1
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['cel']
 linkedin:

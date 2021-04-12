@@ -12,6 +12,7 @@ name: Nava Tintarev
 # Secretary - 7
 role: (Affiliated) Full Professor 
 filter: 1
+theme-filter: 1c
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['epsilon']
 linkedin:

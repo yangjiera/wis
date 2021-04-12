@@ -9,6 +9,7 @@ twitter: https://twitter.com/AggieBalayn
 github: https://github.com/agathe-balayn
 image: agathe.jpg
 filter: 5
+theme-filter: 5
 ---
 
 Agathe is a PhD candidate at the Delft University of Technology (TU Delft), and a member of the Web Information Systems group.

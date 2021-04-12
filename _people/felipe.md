@@ -11,7 +11,8 @@ name: Felipe Moraes
 # Guest Researcher - 7
 # Secretary - 8
 role:
-filter: 5 
+filter: 5
+theme-filter: 5
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['lambda']
 linkedin:

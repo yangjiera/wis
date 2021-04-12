@@ -12,6 +12,7 @@ name: Carlo van der Valk
 # Secretary - 8
 role:
 filter: 7
+theme-filter: 7
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: []
 linkedin:

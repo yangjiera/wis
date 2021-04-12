@@ -3,6 +3,7 @@ name: Ujwal Gadiraju
 role: Assistant Professor
 supervisor: Geert-Jan Houben
 filter: 3
+theme-filter: 1a
 team: kappa
 linkedin: https://www.linkedin.com/in/ujwalgadiraju/
 twitter: https://twitter.com/ujlaw

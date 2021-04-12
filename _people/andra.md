@@ -3,6 +3,7 @@ name: Andra Ionescu
 role: PhD Candidate
 team: delta
 filter: 5
+theme-filter: 5
 image: Andra.jpg
 twitter: https://twitter.com/andradenisio 
 github: https://github.com/AndraIonescu

@@ -12,6 +12,7 @@ name: Shabnam Najafian
 # Secretary - 8
 role: PhD Candidate
 filter: 5
+theme-filter: 5
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['epsilon']
 linkedin:

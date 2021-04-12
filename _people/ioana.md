@@ -12,6 +12,7 @@ name: Ioana Jivet
 # Secretary - 8
 role:
 filter: 4
+theme-filter: 4
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['cel']
 linkedin:

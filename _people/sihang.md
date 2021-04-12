@@ -3,6 +3,7 @@ name: Sihang Qiu
 role: PhD Candidate
 supervisor: Ujwal Gadiraju, Alessandro Bozzon, Geert-Jan Houben
 filter: 5
+theme-filter: 5
 team: kappa
 linkedin: 
 twitter: https://twitter.com/qiusihang

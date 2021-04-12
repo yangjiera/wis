@@ -12,6 +12,7 @@ name: Daphne Stephan
 # Secretary - 8
 role:
 filter: 8
+theme-filter: 8
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: []
 linkedin:

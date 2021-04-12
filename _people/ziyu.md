@@ -3,6 +3,7 @@ name: Ziyu Li
 role: PhD Candidate
 team: delta
 filter: 5
+theme-filter: 5
 image: ziyu.jpg
 email: z.li-14@tudelft.nl
 office: Building 28, Van Mourik Broekmanweg 6, 2628 XE Delft, The Netherlands

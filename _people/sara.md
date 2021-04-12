@@ -12,6 +12,7 @@ name: Sara Salimzadeh
 # Secretary - 8
 role:
 filter: 5
+theme-filter: 5
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: ['lambda']
 linkedin:

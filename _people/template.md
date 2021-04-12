@@ -12,6 +12,8 @@ name:
 # Secretary - 8
 role:
 filter:
+# same as filter
+theme-filter: 
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
 team: []
 linkedin: 
