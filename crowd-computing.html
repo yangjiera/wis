@@ -115,7 +115,12 @@ title: Crowd Computing & Human-Centered AI
             <ul class="col-md-12">
                 {% for project in site.data.kappa.projects %}
                 <li class="margin-left-3">
+                    {% assign project_link = project.link | strip %}
+                    {% if project_link == '' %}
+                    <h5>{{project.title}}</h5>
+                    {% else %}
                     <h5><a href="{{project.link}}" target="_blank"> {{project.title}}</a></h5>
+                    {% endif %}
                     <p>{{project.description}}</p>
                 </li>
                 {% endfor %}
