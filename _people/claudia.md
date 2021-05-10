@@ -14,21 +14,14 @@ role: Associate Professor
 filter: 2
 theme-filter: 2
 # choose one or more teams: delta, kappa, epsilon, lambda, cel
-team: ['lambda']
-linkedin:
-twitter:
-github:
+team: 'lambda'
+linkedin: https://www.linkedin.com/in/claudia-hauff-b02347198
+twitter: https://twitter.com/CharlotteHase
+github: https://github.com/chauff
 image: Claudia Hauff.jpg
 email: c.hauff@tudelft.nl
 # Room number only (Room: 840 West 4rd floor)
 office: Room 4.E.100 East 4rd floor
 ---
 
-## About
-
-[comment]: <> (Write a few or more words about yourself.)
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-
+My personal homepage which includes a complete list of publications and recent activities can be found at [https://chauff.github.io/](https://chauff.github.io/).
