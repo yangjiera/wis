@@ -49,16 +49,28 @@ title: Team
                     {{people.role}}
                 </p>
                 {% endif %}
+
+                {% assign empty_twitter = people.twitter | strip %}
+                {% unless empty_twitter == '' %}
                 <a class="pr-2" href="{{people.twitter}}" target="_blank" title="Twitter">
                     <i class="fa fa-lg fa-twitter"></i>
                 </a>
+                {% endunless %}
+
+                {% assign empty_linkedin = people.linkedin | strip %}
+                {% unless empty_linkedin == '' %}
                 <a class="pr-2" href="{{people.linkedin}}"
                    target="_blank" title="LinkedIn">
                     <i class="fa fa-lg fa-linkedin"></i>
                 </a>
+                {% endunless %}
+
+                {% assign empty_github = people.github | strip %}
+                {% unless empty_github == '' %}
                 <a class="" href="{{people.github}}" target="_blank" title="GitHub">
                     <i class="fa fa-lg fa-github"></i>
                 </a>
+                {% endunless %}
             </div>
         </div>
 

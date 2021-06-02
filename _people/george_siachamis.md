@@ -22,7 +22,7 @@ github:
 image: georgios_siachamis.jpg
 email: g.siachamis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
-office:  
+office: Room - 180 East 4rd floor
 ---
 
 ## About

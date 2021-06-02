@@ -2,6 +2,11 @@
 layout: default_style
 ---
 
+{% assign room = page.office %}
+{% unless page.office contains 'Room' %}
+{% assign room = 'Room - ' | append: page.office %}
+{% endunless %}
+
 <section id="{{page.people}}" class="section-global-wrapper">
     <div class="container content-space">
         <div class="row justify-content-center">
@@ -58,7 +63,7 @@ layout: default_style
                     </p>
                     <p> <b>Visiting address: </b> <br/>
                         <a href="{{site.building_url}}" target="_blank">{{site.building}}</a> <br/>
-                        {{ page.office }} <br/>
+                        {{ room }} <br/>
                         {{ site.street }} <br/>
                         {{ site.zipcode }} <br/>
                         {{ site.country }} <br/>
