@@ -1,8 +1,9 @@
 ---
 # Your full name 
 name: 
-# The members are displayed in a hierarchical way, so please choose the role and filter from this list:
-# Full Professor - 1
+# The members are displayed in a hierarchical way, so please choose the role (e.g. Full Professor, Assistant Professor etc) 
+# and filter number (e.g. 1, 2, 3) from this list and fill in the role and filter from below:
+# (Affiliated) Full Professor - 1
 # Associate Professor - 2
 # Assistant Professor - 3
 # Postdoctoral Researcher - 4
@@ -21,13 +22,13 @@ twitter:
 github: 
 image: 
 email: 
-# Room number only (Room: 840 West 4rd floor)
+# Room number (e.g Room - 840 West 4rd floor)
 office: 
 ---
 
 ## About
 
-[comment]: <> (Write a few or more words about yourself.)
+
 
 ## Publications
 
