@@ -7,7 +7,7 @@ layout: default_style
 {% assign room = 'Room - ' | append: page.office %}
 {% endunless %}
 
-<section id="{{page.people}}" class="section-global-wrapper">
+<section id="{{page.title}}" class="section-global-wrapper">
     <div class="container content-space">
         <div class="row justify-content-center">
             <div class="col-lg-12">
@@ -18,15 +18,23 @@ layout: default_style
                 <p class="row justify-content-center"> <a href="mailto:{{page.email}}" target="_blank">{{page.email}}</a></p>
 
                 <div class="row justify-content-center margin-top-4">
-                    <h5><a class="col-lg-2" href="#about">About</a></h5>
-                    <h5><a class="col-lg-2" href="#publications">Publications</a></h5>
+                    <h6><a class="col-lg-2" href="#about">About</a></h6>
+                    {% unless page.filter > 0 %}
+                    <h6><a class="col-lg-2" href="#pro-vice-rector-ai">Pro Vice Rector AI </a></h6>
+                    <h6><a class="col-lg-2" href="#resume">Resume</a></h6>
+                    <h6><a class="col-lg-2" href="#research">Research</a></h6>
+                    <h6><a class="col-lg-2" href="#links-and-pointers">Links and pointers </a></h6>
+                    <h6><a class="col-lg-2" href="#kivi-chair">KIVI Chair</a></h6>
+                    <h6><a class="col-lg-2" href="#papers">Papers</a></h6>
+                    {% endunless %}
+                    <h6><a class="col-lg-2" href="#publications">Publications</a></h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-9">
-                <div class="row pr-4">
+                <div class="row pr-4 person">
                     {{page.content}}
                 </div>
             </div>
@@ -68,7 +76,28 @@ layout: default_style
                         {{ site.zipcode }} <br/>
                         {{ site.country }} <br/>
                 </div>
+
+                <button class="btn" onclick="topFunction()" id="back-to-top" title="Back to top">Back to top</button>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    const mybutton = document.getElementById("back-to-top");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

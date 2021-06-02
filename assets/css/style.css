@@ -527,7 +527,7 @@ p.blog-text {
     padding: 10px;
     background: #061F20;
     /*color: white;*/
-    min-height: 25vh;
+    min-height: 27vh;
 }
 
 .service-icon {
@@ -942,10 +942,38 @@ footer h3 {
     margin-top: -1vh;
 }
 
-#about {
+div.person > h1{
     width: 100%;
 }
 
-#publications {
+div.person > h2 {
     width: 100%;
+    margin-top: 3vh;
+}
+
+div.person > h3 {
+    width: 100%;
+}
+
+div.person > h4 {
+    width: 100%;
+    margin-top: 2vh;
+}
+
+div.person > h5 {
+    width: 100%;
+    margin-top: 1vh;
+}
+
+div.person > p {
+    width: 100%;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    background-color: #00A6D6;
+    color: white;
 }
