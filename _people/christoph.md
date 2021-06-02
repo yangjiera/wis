@@ -1,12 +1,12 @@
 ---
 name: Christoph Lofi
 role: Assistant Professor
-supervisor: Geert-Jan Houben
 filter: 3
 theme-filter: 1d
 team: ['delta', 'kappa']
 linkedin: https://www.linkedin.com/in/christoph-lofi-298009145/
 image: Christoph Lofi (WIS).jpg
+email: c.lofi@tudelft.nl
 ---
 ## About 
 
@@ -17,3 +17,5 @@ My research is on Semantics-based Data Engineering methods and techniques. The g
 In the context of this challenge, I focus on problem scenarios where there is a semantic mismatch between mostly unstructured source data and structured target data. My research enables the engineering of sophisticated data processing pipelines for these scenarios which can tackle non-trivial issues with respect to integrating data from different sources, transforming data to more suitable granularities or more explicit representations, and augmenting data with additional data points and properties. This is a challenging aspect of data engineering, and solutions rely on recent methods for facilitating semantic enrichment like natural language processing, information extraction, crowd computing, or AI-driven data analysis.    
 
 I chose several application domains for validating my research, focusing on domains where data produced by humans needs to be analyzed and processed. These domains typically exhibit a strong semantic and structural mismatch between available and desired data, and thus are effective testing grounds for my research. Examples are digital libraries and enterprise digital text repositories, online education information systems, and information systems for supporting digital humanities research.
+
+## Publications

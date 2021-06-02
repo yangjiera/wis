@@ -1,7 +1,6 @@
 ---
 name: Asterios Katsifodimos
 role: Assistant Professor
-supervisor: Geert-Jan Houben
 filter: 3
 theme-filter: 1c
 team: delta
@@ -9,7 +8,10 @@ linkedin: https://www.linkedin.com/in/asteriosk/
 twitter: https://twitter.com/kasterios
 github: https://github.com/asteriosk
 image: Asterios Katsifodimos.jpg
+email: a.katsifodimos@tudelft.nl
 ---
+
+## About 
 
 Asterios is an Assistant Professor, Delft University of Technology (TU Delft), and member of the Web Information Systems group. He works in the broad area of scalable data management; more specifically on data management and analysis, stream processing, systems for scalable AI/ML, and data integration.
 

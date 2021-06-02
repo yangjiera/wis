@@ -23,5 +23,7 @@ email: c.hauff@tudelft.nl
 # Room number only (Room: 840 West 4rd floor)
 office: Room 4.E.100 East 4rd floor
 ---
-
+## About 
 My personal homepage which includes a complete list of publications and recent activities can be found at [https://chauff.github.io/](https://chauff.github.io/).
+
+## Publications
