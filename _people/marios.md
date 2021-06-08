@@ -24,6 +24,8 @@ email: M.Fragkoulis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 740 West 4th floor
 back: marios.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/e7f2d020-c11f-4d61-be24-ba4c40ee6bb9
+
 ---
 
 ## About
@@ -34,7 +36,4 @@ I have a PhD in main memory data analytics from the Department of Management Sci
 
 I have worked as a cloud software engineer at GRNET and as a software engineer at COSMOTE where I built and operated big data workflows.
 
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

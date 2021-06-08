@@ -25,6 +25,8 @@ email: G.J.P.M.Houben@tudelft.nl
 # Room number (e.g Room - 840 West 4rd floor)
 office: Room - 840 West 4rd floor
 back: geert-jan.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/3f77eaf9-d538-4448-9035-a34b160676eb
+
 
 ---
 
@@ -46,8 +48,3 @@ in Delft, with a focus on the role of Web data in the engineering of Web-based i
 
 **Serving** as Director of Education at the faculty of Electrical Engineering, Mathematics and Computer Science 
 at TU Delft.
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-

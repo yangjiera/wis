@@ -24,6 +24,8 @@ email: g.siachamis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 180 East 4rd floor
 back: george_siachamis.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/b5be7a3d-9e5a-4006-abf5-52811c0eae81
+
 ---
 
 ## About
@@ -31,7 +33,4 @@ I am a PhD Candidate at the Web Information Systems group of the Faculty of Engi
 
 I hold a 5-year Diploma (equivalent to M.Eng.) in Electrical and Computer Engineering from National Technical University of Athens. In my thesis, I worked on query rewriting for Data Integration.
 
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

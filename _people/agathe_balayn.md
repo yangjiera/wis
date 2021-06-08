@@ -24,6 +24,7 @@ email: a.m.a.balayn@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 West 4th floor
 back: agathe_balayn.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/5dbba86a-c10c-4359-9977-3fba67e14f50
 ---
 
 ## About
@@ -42,8 +43,3 @@ Prior to that, I had the opportunity to work on other machine learning -related 
 I hold an MSc degree in Computer Science from the <a href="www.tudelft.nl">TU Delft</a>, the Netherlands, and an engineering diploma (with its MSc degree equivalence) in Systems and Control from the <a href="https://www.ensta-paris.fr/en">ENSTA ParisTech</a>, Institut Polytechnique de Paris, France.
 
 More information on my <a href="https://agathe-balayn.github.io/">website</a>.
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-

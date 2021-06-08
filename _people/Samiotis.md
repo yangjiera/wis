@@ -24,6 +24,8 @@ email: i.p.samiotis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 920 West 4th floor
 back: Samiotis.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/8e6cd969-4e45-4aa2-a83b-c396ea19ce5f
+
 ---
 
 ## About
@@ -31,8 +33,4 @@ I am a PhD Candidate at Delft University of Technology and my research focuses o
 
 I hold a Master of Science (M.Sc.) in Computer Science from Delft University of Technology and an M.Sc. in Digital Visual Effects from University of Kent. Lastly, I conducted my 4-year Bachelor (B.Sc.) studies in Cultural Technology and Communication at the University of Aegean.
 
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

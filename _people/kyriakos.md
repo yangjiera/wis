@@ -24,6 +24,8 @@ email: K.Psarakis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 920 West 4th floor
 back: kyriakos.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/98d8d753-edf7-4b21-a6ff-8f454637333b
+
 ---
 
 ## About
@@ -36,9 +38,4 @@ group. I'm working at the intersection of stream processing and serverless compu
 Prior to that I obtained my MSc in Computer Science at TU Delft with a thesis at [Holistic Schema Matching at Scale](https://repository.tudelft.nl/islandora/object/uuid%3Af4ebeda3-6465-49da-813b-f1e6e0820c60) 
 in collaboration with [ING Netherlands](https://www.ing.nl/particulier/english/index.html).
 My first degree was a diploma (Integrated master's degree) in Electrical and Computer Engineering at the [Technical University of Crete](https://www.tuc.gr/index.php?id=5397).
-
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

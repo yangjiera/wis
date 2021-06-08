@@ -24,6 +24,8 @@ email: s.sharifinoorian@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 West 4th floor
 back: Shahin_Sharifi.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/cc9e9819-8440-47ed-8611-392a0afc3831
+
 ---
 
 ## About
@@ -35,7 +37,3 @@ I received my M.Sc. from TU Munich in 2015, and B.Eng. from USC Tehran in 2011. 
 
 My research project is a collaboration between the Web Information Systems (WIS) research group and <a href="https://www.wigeogis.com/en/home">WIGeoGIS GmbH</a>, under the supervision of Prof. dr. ir. Alessandro Bozzon.
 
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )

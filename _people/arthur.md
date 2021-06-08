@@ -24,6 +24,8 @@ email: A.BarbosaCamara@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 East 4th Floor
 back: arthur.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/7ec3a2cf-7fb9-4a59-8c62-22ba48b953e1
+
 ---
 
 ## About
@@ -31,8 +33,4 @@ back: arthur.html
 Arthur is a PhD Candidate in the Lambda lab, interested in (deep) Information Retrieval, Natural Language Processing and Search-as-Learning.
 
 He is also a big nerd, who loves video games, rockets and food.
-
-## Publications
-
-[comment]: <> "You don't have to write anything here, it will be automatically filled. "
 

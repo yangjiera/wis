@@ -11,6 +11,8 @@ github: https://github.com/oana-inel
 image: Oana.jpg
 email: o.inel@tudelft.nl 
 back: oana.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/24369003-f802-43ff-8a17-35b52d790219
+
 ---
 
 ## About 
@@ -19,4 +21,3 @@ Oana Inel is a Postdoctoral Researcher in the Computer Science department at Del
 
 More information and a full list of publications can be found on her personal website: oana-inel.github.io .
 
-## Publications 

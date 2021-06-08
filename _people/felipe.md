@@ -24,6 +24,8 @@ email: f.moraes@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 East 4th floor
 back: felipe.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/41271dc2-831c-41e8-977e-19d296591f75
+
 ---
 
 ## About
@@ -31,8 +33,4 @@ back: felipe.html
 Felipe is PhD candidate under supervision of Claudia Hauff. During his PhD, he interned as an applied scientist at Amazon Alexa Shopping, where he worked to provide awareness of what customers find relevant when comparing products during their shopping journey. Before that, he obtained a BSc and MSc in Computer Science from the Federal University of Minas Gerais, visited research labs at NYU and the University of Quebec, and worked as a software engineer intern in a startup.
 
 You can find out more about Felipe on his personal website, at [fmoraes.nl](http://fmoraes.nl).
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

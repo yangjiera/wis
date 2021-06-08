@@ -24,13 +24,10 @@ email: Z.Li-14@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 180 East 4rd floor
 back: ziyu.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/7f554302-c1f4-4192-9b84-ffa60ab36c8a
+
 ---
 
 ## About
 I am a PhD student at the Web Information Systems group, Department of Software Technology, Faculty of EEMCS, Delft University of Technology. The PhD project belongs to the HyperEdge project with Cognizant. I'm supervised by Alessandro Bozzon and Asterios Katsifodimos. My research lies at the intersection of Machine Learning and data analysis, specifically allocating Machine Learning resources with multiple objectives, including circumstances with edge computing.
-
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

@@ -24,13 +24,11 @@ email: R.Hai@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 
 back: rihan.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/6e7de843-a410-42bc-aa40-e6ed379285c1
+
 ---
 
 ## About
 
 I am a postdoc researcher at Delft University of Technology (TU Delft). Before joining TU Delft, I received my Ph.D. degree from computer science 5 (Information Systems) of RWTH Aachen University. I received my master degree in June 2012 from the School of Information, Tsinghua University. Later I have joined SAP as a technical consultant. My research focuses on data integration and related dataset discovery in large-scale data lakes.
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

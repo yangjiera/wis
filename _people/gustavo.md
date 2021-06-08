@@ -24,13 +24,10 @@ email: G.Penha-1@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 040 West 4th floor
 back: gustavo.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/c28be04d-07e5-474e-a3b0-48b8561c3cba
+
 ---
 
 ## About
 
 I am a PhD candidate at TU Delft on the topic of neural rankers for conversational search and recommendation under the supervision of Claudia Hauff. I have BSc and MSc degrees from the Department of Computer Science of UFMG :brazil:, where I was supervised by Rodrygo Santos. On my spare time I like to do street photography. You can find more info about me here: https://linktr.ee/guzpenha. 
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-

@@ -24,13 +24,11 @@ email: p.zhu-1@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 180 East 4rd floor
 back: peide_zhu.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/855fe3b5-45d7-4236-8669-94be3dd814f0
+
 ---
 
 ## About
 
 I am a Ph.D. candidate (since Nov. 2019) in the Web Information Systems group of Delft University of Technology, under the supervision of Claudia Hauff. I received my MSc degree in Computer Science from University of Science and Technology of China in June 2019. I received a BSc degree in Information Security from Nanjing University of Aeronautics and Astronautics. I also worked as a software engineer for 2 years in Huawei Technology and UCloud. My research is focused on question generation for online learning and how questions affect learner's learning process and outcome. 
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
 

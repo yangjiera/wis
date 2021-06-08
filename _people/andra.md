@@ -25,6 +25,8 @@ email: a.ionescu-3@tudelft.nl
 # Room number (e.g Room - 840 West 4rd floor)
 office: Room - 180 East 4rd floor
 back: andra.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/6c249f57-c88f-45f5-85ff-55b0bfed4c8e
+
 ---
 
 ## About
@@ -39,9 +41,3 @@ Computer Science form Politehnica University of Bucharest.
 I am from Romania, I love mountains and doing sport activities in nature. 
 For more, follow me on my social accounts and keep an eye on my
 [website](https://andraionescu.github.io).
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-
-

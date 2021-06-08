@@ -11,6 +11,8 @@ github: https://github.com/ujwalgadiraju
 image: Ujwal Gadiraju.jpg
 email: U.K.Gadiraju@tudelft.nl
 back: ujwal.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/f1a97568-c63e-4703-89c2-8824d67d3e4f
+
 ---
 ## About
 
@@ -31,4 +33,4 @@ He serves on the editorial board of the Human Computation Journal and has served
 
 More information and a full list of publications can be found on his personal website: [ujwalgadiraju.com].
 
-## Publications
+

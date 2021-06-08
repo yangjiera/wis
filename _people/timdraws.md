@@ -24,13 +24,9 @@ email: t.a.draws@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 East 4th floor
 back: timdraws.html
+publications_link: https://purexml.ewi.tudelft.nl/convert/li/persons/1896f280-cf88-4c01-809b-da0ffa0cee4e
+
 ---
 
 ## About
 I studied Psychology at the University of Amsterdam, where I specialized in statistics and research methods (also sometimes called *Psychological Methods* or *Behavioural Data Science*). Currently, my research focuses on understanding how algorithmic and cognitive biases in web search affect user attitudes on debated topics.
-
-
-## Publications
-
-[comment]: <> (You don't have to write anything here, it will be automatically filled. )
-
