@@ -18,16 +18,13 @@ layout: default_style
                 <p class="row justify-content-center"> <a href="mailto:{{page.email}}" target="_blank">{{page.email}}</a></p>
 
                 <div class="row justify-content-center margin-top-4">
-                    <h6><a class="col-lg-2" href="#about">About</a></h6>
+                    <h6><a class="col-lg-2" href="{{site.baseurl}}/people/{{page.back}}#about">About</a></h6>
                     {% unless page.filter > 0 %}
-                    <h6><a class="col-lg-2" href="#pro-vice-rector-ai">Pro Vice Rector AI </a></h6>
-                    <h6><a class="col-lg-2" href="#resume">Resume</a></h6>
-                    <h6><a class="col-lg-2" href="#research">Research</a></h6>
-                    <h6><a class="col-lg-2" href="#links-and-pointers">Links and pointers </a></h6>
-                    <h6><a class="col-lg-2" href="#kivi-chair">KIVI Chair</a></h6>
-                    <h6><a class="col-lg-2" href="#papers">Papers</a></h6>
+                    {% for tabs in site.details %}
+                        <h6><a class="col-lg-2" href="{{site.baseurl}}{{tabs.url}}">{{tabs.title}}</a></h6>
+                    {% endfor %}
                     {% endunless %}
-                    <h6><a class="col-lg-2" href="#publications">Publications</a></h6>
+                    <h6><a class="col-lg-2" href="{{site.baseurl}}/people/{{page.back}}#publications">Publications</a></h6>
                 </div>
             </div>
         </div>

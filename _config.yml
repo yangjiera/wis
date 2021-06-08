@@ -41,6 +41,8 @@ collections:
     sort_by: filter
   teams:
     output: true
+  details:
+    output: true
 
 defaults:
   - scope:
@@ -48,6 +50,11 @@ defaults:
       type: "people"
     values:
       layout: "person"
+  - scope:
+      path: ""
+      type: "details"
+    values:
+        layout: "content"
   - scope:
       path: ""
     values:

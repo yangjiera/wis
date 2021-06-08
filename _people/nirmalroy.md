@@ -23,6 +23,7 @@ image: nirmal.jpg
 email: n.roy@tudelft.nl
 # Room number only (e.g Room - 840 East 4rd floor)
 office: Room - 040 East 4th floor
+back: nirmalroy.html
 ---
 
 ## About

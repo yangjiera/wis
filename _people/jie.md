@@ -23,6 +23,7 @@ image: Jie Yang.jpg
 email: j.yang-3@tudelft.nl
 # Room number (e.g Room - 840 West 4rd floor)
 office: 4.E.160 East 4rd floor
+back: jie.html
 ---
 
 ## About

@@ -7,6 +7,7 @@ team: ['delta', 'kappa']
 linkedin: https://www.linkedin.com/in/christoph-lofi-298009145/
 image: Christoph Lofi (WIS).jpg
 email: c.lofi@tudelft.nl
+back: christoph.html
 ---
 ## About 
 

@@ -23,6 +23,7 @@ image: kyriakos.jpg
 email: K.Psarakis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 920 West 4th floor
+back: kyriakos.html
 ---
 
 ## About

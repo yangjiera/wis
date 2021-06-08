@@ -10,6 +10,7 @@ twitter: https://twitter.com/qiusihang
 github: https://github.com/qiusihang
 image: sihang.qiu.png
 email: s.qiu-1@tudelft.nl
+back: sihang.html
 ---
 
 Sihang Qiu is a PhD candidate at the Web Information Systems group of the Faculty of Engineering, Mathematics and Computer Science (EEMCS/EWI), Delft University of Technology. His PhD topic focuses on Conversational Interfaces for Crowdsourcing. Sihang also has broad interests in Crowd Computing and Human-Computer Interaction.

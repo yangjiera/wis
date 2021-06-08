@@ -23,6 +23,7 @@ image: agathe.jpg
 email: a.m.a.balayn@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: 040 West 4th floor
+back: agathe_balayn.html
 ---
 
 ## About

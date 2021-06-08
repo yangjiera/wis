@@ -23,6 +23,7 @@ image: ioannispetros.samiotis.png
 email: i.p.samiotis@tudelft.nl
 # Room number only (e.g Room - 840 West 4rd floor)
 office: Room - 920 West 4th floor
+back: Samiotis.html
 ---
 
 ## About

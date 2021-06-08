@@ -15,6 +15,7 @@ image: Nava Tintarev.jpg
 email: n.tintarev@tudelft.nl
 # Room number (e.g Room - 840 West 4rd floor)
 office: 
+back: Nava.html
 ---
 
 ## About
